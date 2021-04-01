@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/ship/pages/list/list"
+    ],
+    "subPackages": [
+        {
+            "root": "subpackages/pkgship/",
+            "pages": [
+                "pages/index/index"
+            ]
+        },
+        {
+            "root": "subpackages/pkgship0/",
+            "pages": [
+                "pages/index/index"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智能小程序",
+        "backgroundTextStyle": "light"
+    }
+}

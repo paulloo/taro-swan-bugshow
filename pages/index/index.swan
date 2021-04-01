@@ -1,0 +1,14 @@
+<!-- index.swan -->
+<view class="container">
+    <view class="logo">
+    </view>
+    <view class="userinfo">
+        <button class="userinfo-login-btn" s-if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <view s-else class="userinfo-message">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </view>
+    </view>
+    <button bindtap="goSub">点击去分包首页</button>
+    <button bindtap="goSub0">点击去分包首页0</button>
+</view>

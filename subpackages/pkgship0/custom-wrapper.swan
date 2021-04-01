@@ -1,0 +1,4 @@
+<import src="./base.swan" />
+  <block s-for="{{i.cn}}" s-key="uid">
+    <template is="tmpl_0_container" data="{{{ i:item }}}" />
+  </block>
